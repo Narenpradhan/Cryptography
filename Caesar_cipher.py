@@ -42,8 +42,8 @@ def encrypt_decrypt(user_input, key, mode):
 # Driver Code
 banner()
 
-mode = input("\n\033[38;5;230m[*] Do you want to Encrypt or Decrypt (e\d) : ")
-key = int(input("\033[38;5;230m[*] Enter the key : "))
+mode = input("\n\033[38;5;230m[*] Do you want to Encrypt or Decrypt (e/d) : ")
+key = int(input("\033[38;5;230m[*] Enter the key (1-25) : "))
 
 if mode == "e":
     user_input = input("\033[38;5;230m[*] Enter text to Encrypt :")
