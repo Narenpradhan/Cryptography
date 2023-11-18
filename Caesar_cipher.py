@@ -44,7 +44,7 @@ def encrypt_decrypt(user_input, key, mode):
 banner()
 
 mode = input("\n\033[38;5;230m[*] Do you want to Encrypt or Decrypt (e/d) : ")
-key = int(input("\033[38;5;230m[*] Enter the key (1-25) : "))
+key = int(input("\033[38;5;230m[*] Enter the key (1-63) : "))
 separator = "-----------------------------------------"
 
 if mode == "e":
